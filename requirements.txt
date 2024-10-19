@@ -4,6 +4,7 @@ aiosignal==1.3.1
 alembic==1.13.2
 annotated-types==0.7.0
 antlr4-python3-runtime==4.9.3
+anyio==4.4.0
 asteroid-filterbanks==0.4.0
 async-timeout==4.0.3
 attrs==23.2.0
@@ -23,8 +24,10 @@ dataclasses-json==0.6.7
 decorator==5.1.1
 deprecation==2.1.0
 diffusers==0.29.2
+distro==1.9.0
 docopt==0.6.2
 einops==0.8.0
+exceptiongroup==1.2.1
 eyed3==0.9.7
 faster-whisper==0.10.1
 filelock==3.15.4
@@ -34,7 +37,10 @@ fonttools==4.53.0
 frozenlist==1.4.1
 fsspec==2024.6.1
 greenlet==3.0.3
+h11==0.14.0
 hmmlearn==0.3.2
+httpcore==1.0.5
+httpx==0.27.0
 huggingface-hub==0.23.4
 humanfriendly==10.0
 HyperPyYAML==1.2.2
@@ -46,6 +52,8 @@ Jinja2==3.1.4
 joblib==1.4.2
 jsonpatch==1.33
 jsonpointer==3.0.0
+jsonschema==4.23.0
+jsonschema-specifications==2023.12.1
 julius==0.2.7
 kiwisolver==1.4.5
 langchain==0.2.6
@@ -86,6 +94,7 @@ nvidia-nvjitlink-cu12==12.5.82
 nvidia-nvtx-cu12==12.1.105
 omegaconf==2.3.0
 onnxruntime==1.18.1
+openai==1.35.13
 openai-whisper==20231117
 optuna==3.6.1
 orjson==3.10.5
@@ -111,13 +120,16 @@ pydub==0.25.1
 Pygments==2.18.0
 pyparsing==3.1.2
 python-dateutil==2.9.0.post0
+python-dotenv==1.0.1
 pytorch-lightning==2.3.2
 pytorch-metric-learning==2.5.0
 pytz==2024.1
 PyYAML==6.0.1
+referencing==0.35.1
 regex==2024.5.15
 requests==2.32.3
 rich==13.7.1
+rpds-py==0.19.0
 ruamel.yaml==0.18.6
 ruamel.yaml.clib==0.2.8
 safetensors==0.4.3
@@ -127,6 +139,7 @@ semver==3.0.2
 sentencepiece==0.2.0
 shellingham==1.5.4
 six==1.16.0
+sniffio==1.3.1
 sortedcontainers==2.4.0
 soundfile==0.12.1
 soxr==0.3.7
